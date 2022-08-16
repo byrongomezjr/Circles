@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9C3A45E39726700CC62259B /* Pods_Circles_CirclesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 369346BEB9A9C143201F6CBF /* Pods_Circles_CirclesUITests.framework */; };
+		C423A4454A622E7A3D9A5EC3 /* Pods_CirclesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F17BD346B97E0806F0505F1D /* Pods_CirclesTests.framework */; };
 		F5CA5EA628AB3F15002F7C12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CA5EA528AB3F15002F7C12 /* AppDelegate.swift */; };
 		F5CA5EA828AB3F15002F7C12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CA5EA728AB3F15002F7C12 /* SceneDelegate.swift */; };
 		F5CA5EAA28AB3F15002F7C12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CA5EA928AB3F15002F7C12 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 		F5CA5EBD28AB3F17002F7C12 /* CirclesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CA5EBC28AB3F17002F7C12 /* CirclesTests.swift */; };
 		F5CA5EC728AB3F17002F7C12 /* CirclesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CA5EC628AB3F17002F7C12 /* CirclesUITests.swift */; };
 		F5CA5EC928AB3F17002F7C12 /* CirclesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CA5EC828AB3F17002F7C12 /* CirclesUITestsLaunchTests.swift */; };
+		F5CA5ED728AB4654002F7C12 /* CometChatPro in Frameworks */ = {isa = PBXBuildFile; productRef = F5CA5ED628AB4654002F7C12 /* CometChatPro */; };
+		FBFA340C15BD550D8B113C65 /* Pods_Circles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E52C008F892C23B0DCF590 /* Pods_Circles.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A10ECF0A944659642F435B5 /* Pods-CirclesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CirclesTests.debug.xcconfig"; path = "Target Support Files/Pods-CirclesTests/Pods-CirclesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		369346BEB9A9C143201F6CBF /* Pods_Circles_CirclesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Circles_CirclesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C4E22FF1FB28C3FDD75D622 /* Pods-Circles-CirclesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Circles-CirclesUITests.debug.xcconfig"; path = "Target Support Files/Pods-Circles-CirclesUITests/Pods-Circles-CirclesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8DB4260E223097DD21CC7E0C /* Pods-Circles.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Circles.debug.xcconfig"; path = "Target Support Files/Pods-Circles/Pods-Circles.debug.xcconfig"; sourceTree = "<group>"; };
+		99B5EB58A4A7DCFC4A0269B8 /* Pods-CirclesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CirclesTests.release.xcconfig"; path = "Target Support Files/Pods-CirclesTests/Pods-CirclesTests.release.xcconfig"; sourceTree = "<group>"; };
+		9D6548697C57E3796F58705F /* Pods-Circles-CirclesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Circles-CirclesUITests.release.xcconfig"; path = "Target Support Files/Pods-Circles-CirclesUITests/Pods-Circles-CirclesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A1A366F129BC1B8EA37A1F8C /* Pods-Circles.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Circles.release.xcconfig"; path = "Target Support Files/Pods-Circles/Pods-Circles.release.xcconfig"; sourceTree = "<group>"; };
+		D3E52C008F892C23B0DCF590 /* Pods_Circles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Circles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F17BD346B97E0806F0505F1D /* Pods_CirclesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CirclesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5CA5EA228AB3F15002F7C12 /* Circles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Circles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5CA5EA528AB3F15002F7C12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5CA5EA728AB3F15002F7C12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBFA340C15BD550D8B113C65 /* Pods_Circles.framework in Frameworks */,
+				F5CA5ED728AB4654002F7C12 /* CometChatPro in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C423A4454A622E7A3D9A5EC3 /* Pods_CirclesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9C3A45E39726700CC62259B /* Pods_Circles_CirclesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		078A84A7FAE780AD57808343 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3E52C008F892C23B0DCF590 /* Pods_Circles.framework */,
+				369346BEB9A9C143201F6CBF /* Pods_Circles_CirclesUITests.framework */,
+				F17BD346B97E0806F0505F1D /* Pods_CirclesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B48AEBB3474F92E13D6698D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DB4260E223097DD21CC7E0C /* Pods-Circles.debug.xcconfig */,
+				A1A366F129BC1B8EA37A1F8C /* Pods-Circles.release.xcconfig */,
+				7C4E22FF1FB28C3FDD75D622 /* Pods-Circles-CirclesUITests.debug.xcconfig */,
+				9D6548697C57E3796F58705F /* Pods-Circles-CirclesUITests.release.xcconfig */,
+				0A10ECF0A944659642F435B5 /* Pods-CirclesTests.debug.xcconfig */,
+				99B5EB58A4A7DCFC4A0269B8 /* Pods-CirclesTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F5CA5E9928AB3F15002F7C12 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +123,8 @@
 				F5CA5EBB28AB3F17002F7C12 /* CirclesTests */,
 				F5CA5EC528AB3F17002F7C12 /* CirclesUITests */,
 				F5CA5EA328AB3F15002F7C12 /* Products */,
+				4B48AEBB3474F92E13D6698D /* Pods */,
+				078A84A7FAE780AD57808343 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,15 +176,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F5CA5ECC28AB3F17002F7C12 /* Build configuration list for PBXNativeTarget "Circles" */;
 			buildPhases = (
+				C73C1480B5F384C79DB1A1A1 /* [CP] Check Pods Manifest.lock */,
 				F5CA5E9E28AB3F15002F7C12 /* Sources */,
 				F5CA5E9F28AB3F15002F7C12 /* Frameworks */,
 				F5CA5EA028AB3F15002F7C12 /* Resources */,
+				D4C4BF72D07C6C1A474B9FA4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Circles;
+			packageProductDependencies = (
+				F5CA5ED628AB4654002F7C12 /* CometChatPro */,
+			);
 			productName = Circles;
 			productReference = F5CA5EA228AB3F15002F7C12 /* Circles.app */;
 			productType = "com.apple.product-type.application";
@@ -151,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F5CA5ECF28AB3F18002F7C12 /* Build configuration list for PBXNativeTarget "CirclesTests" */;
 			buildPhases = (
+				78D07E0EF706A9D34A180465 /* [CP] Check Pods Manifest.lock */,
 				F5CA5EB428AB3F17002F7C12 /* Sources */,
 				F5CA5EB528AB3F17002F7C12 /* Frameworks */,
 				F5CA5EB628AB3F17002F7C12 /* Resources */,
@@ -169,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F5CA5ED228AB3F18002F7C12 /* Build configuration list for PBXNativeTarget "CirclesUITests" */;
 			buildPhases = (
+				BA57AC99372B4DCBAA5985CB /* [CP] Check Pods Manifest.lock */,
 				F5CA5EBE28AB3F17002F7C12 /* Sources */,
 				F5CA5EBF28AB3F17002F7C12 /* Frameworks */,
 				F5CA5EC028AB3F17002F7C12 /* Resources */,
+				839D6D5E86D1895696FF53D1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -215,6 +265,9 @@
 				Base,
 			);
 			mainGroup = F5CA5E9928AB3F15002F7C12;
+			packageReferences = (
+				F5CA5ED528AB4654002F7C12 /* XCRemoteSwiftPackageReference "ios-chat-sdk" */,
+			);
 			productRefGroup = F5CA5EA328AB3F15002F7C12 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -252,6 +305,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		78D07E0EF706A9D34A180465 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CirclesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		839D6D5E86D1895696FF53D1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Circles-CirclesUITests/Pods-Circles-CirclesUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Circles-CirclesUITests/Pods-Circles-CirclesUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Circles-CirclesUITests/Pods-Circles-CirclesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA57AC99372B4DCBAA5985CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Circles-CirclesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C73C1480B5F384C79DB1A1A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Circles-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4C4BF72D07C6C1A474B9FA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Circles/Pods-Circles-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Circles/Pods-Circles-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Circles/Pods-Circles-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F5CA5E9E28AB3F15002F7C12 /* Sources */ = {
@@ -366,7 +522,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +576,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -432,7 +588,9 @@
 		};
 		F5CA5ECD28AB3F17002F7C12 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DB4260E223097DD21CC7E0C /* Pods-Circles.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -440,11 +598,16 @@
 				DEVELOPMENT_TEAM = SYH76T8D2F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Circles/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,7 +623,9 @@
 		};
 		F5CA5ECE28AB3F17002F7C12 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1A366F129BC1B8EA37A1F8C /* Pods-Circles.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,11 +633,16 @@
 				DEVELOPMENT_TEAM = SYH76T8D2F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Circles/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -488,6 +658,7 @@
 		};
 		F5CA5ED028AB3F18002F7C12 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A10ECF0A944659642F435B5 /* Pods-CirclesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +679,7 @@
 		};
 		F5CA5ED128AB3F18002F7C12 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99B5EB58A4A7DCFC4A0269B8 /* Pods-CirclesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +700,7 @@
 		};
 		F5CA5ED328AB3F18002F7C12 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C4E22FF1FB28C3FDD75D622 /* Pods-Circles-CirclesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +719,7 @@
 		};
 		F5CA5ED428AB3F18002F7C12 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D6548697C57E3796F58705F /* Pods-Circles-CirclesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -602,6 +776,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F5CA5ED528AB4654002F7C12 /* XCRemoteSwiftPackageReference "ios-chat-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/cometchat-pro/ios-chat-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.907;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F5CA5ED628AB4654002F7C12 /* CometChatPro */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5CA5ED528AB4654002F7C12 /* XCRemoteSwiftPackageReference "ios-chat-sdk" */;
+			productName = CometChatPro;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F5CA5E9A28AB3F15002F7C12 /* Project object */;
 }
