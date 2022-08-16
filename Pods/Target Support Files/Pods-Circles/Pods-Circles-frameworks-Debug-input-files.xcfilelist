@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-Circles/Pods-Circles-frameworks.sh
+${PODS_XCFRAMEWORKS_BUILD_DIR}/CometChatPro/CometChatPro.framework/CometChatPro
+${PODS_XCFRAMEWORKS_BUILD_DIR}/CometChatPro/CometChatStarscream.framework/CometChatStarscream
