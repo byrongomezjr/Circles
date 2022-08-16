@@ -4,7 +4,7 @@
 target 'Circles' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-  pod 'CometChatPro', '3.0.909'
+  pod 'CometChatPro', '2.4.1'
   # Pods for Circles
 
   target 'CirclesTests' do
