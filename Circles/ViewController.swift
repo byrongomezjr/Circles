@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
 
         
-        let uid    = "byrongomezjr"
+        let uid    = "admin"
         let authKey = "ddfaa71add7d4ef2d456ed80bff2186e06431a87"
 
         CometChat.login(UID: uid, apiKey: authKey, onSuccess: { (user) in
