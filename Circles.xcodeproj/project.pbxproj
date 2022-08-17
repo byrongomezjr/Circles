@@ -3540,6 +3540,7 @@
 				F5CA5E9F28AB3F15002F7C12 /* Frameworks */,
 				F5CA5EA028AB3F15002F7C12 /* Resources */,
 				D4C4BF72D07C6C1A474B9FA4 /* [CP] Embed Pods Frameworks */,
+				F52BEDF328AC898D00D0D6E5 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -4371,6 +4372,23 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Circles/Pods-Circles-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		F52BEDF328AC898D00D0D6E5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This script loops through the frameworks embedded in the application \n# and removes unused architectures.\nfind \"${TARGET_BUILD_DIR}/${WRAPPER_NAME}\" -name '*.framework' -type d | while read -r FRAMEWORK; do\n    FRAMEWORK_EXECUTABLE_NAME=$(defaults read \"$FRAMEWORK/Info.plist\" CFBundleExecutable)\n    FRAMEWORK_EXECUTABLE_PATH=\"$FRAMEWORK/$FRAMEWORK_EXECUTABLE_NAME\"\n    for arch in $(lipo -archs $FRAMEWORK_EXECUTABLE_PATH); do\n        if ! printf '%s\\n' ${ARCHS[@]} | egrep -q \"^$arch$\"; then\n            lipo -remove $arch \"$FRAMEWORK_EXECUTABLE_PATH\" -o \"$FRAMEWORK_EXECUTABLE_PATH\" \n        fi\n    done\ndone\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 

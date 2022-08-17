@@ -7,12 +7,14 @@
 
 import UIKit
 import CometChatPro
+import SwiftUI
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+
         
         let uid    = "byrongomezjr"
         let authKey = "ddfaa71add7d4ef2d456ed80bff2186e06431a87"
