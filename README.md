@@ -8,6 +8,6 @@ built using CometChatPro's Chat SDK loaded with advanced in-app messaging featur
 
 <div id="gif" align="center">
 
-![Alt Text](https://im5.ezgif.com/tmp/ezgif-5-a2a8c9479e.gif)
+![](https://github.com/byrongomezjr/Circles/blob/master/Circles/Assets.xcassets/GIF/chatappgif.dataset/chatappgif.gif)
 
 <div>
