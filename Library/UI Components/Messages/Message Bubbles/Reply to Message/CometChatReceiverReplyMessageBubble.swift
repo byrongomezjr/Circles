@@ -69,7 +69,7 @@ class CometChatReceiverReplyMessageBubble: UITableViewCell {
                     name.text = userName + ":"
                 }
               
-                if let metaData = currentMessage.metaData, let replyToMessage = metaData["reply-message"] as? [String:Any], let baseMessage = CometChat.processMessage(replyToMessage).0 as? BaseMessage {
+                if let metaData = currentMessage.metaData, let replyToMessage = metaData["reply-message"] as? [String:Any], let baseMessage = CometChat.processMessage(replyToMessage).0 {
                     self.replyMessageIndicator.backgroundColor = UIKitSettings.primaryColor
                     self.replyMessage.isHidden = false
                     self.replyMessageUserName.isHidden = false
@@ -261,7 +261,7 @@ class CometChatReceiverReplyMessageBubble: UITableViewCell {
                        self.parseMaskedData(forMessage: textmessage)
                        self.parseSentimentAnalysis(forMessage: textmessage)
                      
-                    if let metaData = textmessage.metaData, let replyToMessage = metaData["reply-message"] as? [String:Any], let baseMessage = CometChat.processMessage(replyToMessage).0 as? BaseMessage {
+                     if let metaData = textmessage.metaData, let replyToMessage = metaData["reply-message"] as? [String:Any], let baseMessage = CometChat.processMessage(replyToMessage).0 {
                         self.replyMessageIndicator.backgroundColor = UIKitSettings.primaryColor
                         self.replyMessage.isHidden = false
                         self.replyMessageUserName.isHidden = false

@@ -96,7 +96,7 @@ class CometChatReceiverMeetingMessageBubble: UITableViewCell {
             icon.tintColor = UIKitSettings.primaryColor
             joinButton.tintColor = UIKitSettings.primaryColor
             
-            timeStamp.text = String().setMessageTime(time: Int(meetingMessage.sentAt ?? 0))
+                timeStamp.text = String().setMessageTime(time: Int(meetingMessage.sentAt ))
             
                 if let avatarURL = meetingMessage.sender?.avatar  {
                     avatar.set(image: avatarURL, with: meetingMessage.sender?.name ?? "")

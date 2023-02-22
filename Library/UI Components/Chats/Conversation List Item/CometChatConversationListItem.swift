@@ -221,6 +221,7 @@ class CometChatConversationListItem: UITableViewCell {
                             message.text = senderName! + ":  " + "HAS_INITIATED_GROUP_AUDIO_CALL".localized()
                         }
                         }
+                    case .custom: break
                     @unknown default:
                         break
                     }
@@ -329,10 +330,11 @@ func parseProfanityFilter(forMessage: TextMessage){
                     message.attributedText =  addBoldText(fullString: forMessage.text as NSString, boldPartOfString: searchedText as NSString, font: normalSubtitlefont, boldFont: boldSubtitlefont)
                 case .text where forMessage.receiverType == .group:
                     let senderName = forMessage.sender?.name
-                    if  let text = senderName! + ":  " + filteredMessage as NSString? {
+                    if  (senderName! + ":  " + filteredMessage as NSString?) != nil {
                         message.attributedText =  addBoldText(fullString: forMessage.text as NSString, boldPartOfString: searchedText as NSString, font: normalSubtitlefont, boldFont: boldSubtitlefont)
                     }
                 case .text, .image, .video, .audio, .file, .custom,.groupMember: break
+                @unknown default: break
                 }
             }
         }else{
@@ -345,6 +347,7 @@ func parseProfanityFilter(forMessage: TextMessage){
                     message.attributedText =  addBoldText(fullString: text, boldPartOfString: searchedText as NSString, font: normalSubtitlefont, boldFont: boldSubtitlefont)
                 }
             case .text, .image, .video, .audio, .file, .custom,.groupMember: break
+            @unknown default: break
             }
         }
     }else{
@@ -357,6 +360,7 @@ func parseProfanityFilter(forMessage: TextMessage){
                 message.attributedText =  addBoldText(fullString: text, boldPartOfString: searchedText as NSString, font: normalSubtitlefont, boldFont: boldSubtitlefont)
             }
         case .text, .image, .video, .audio, .file, .custom,.groupMember: break
+        @unknown default: break
         }
     }
 }

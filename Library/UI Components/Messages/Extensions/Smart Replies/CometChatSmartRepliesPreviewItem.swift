@@ -11,7 +11,7 @@ import CometChatPro
 
 // MARK: - Importing Protocols.
 
-protocol CometChatSmartRepliesPreviewItemDelegate: class {
+protocol CometChatSmartRepliesPreviewItemDelegate: AnyObject {
     func didSendButtonPressed(title: String, sender: UIButton)
 }
 

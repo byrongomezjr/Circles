@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-public protocol HyperlinkLabelDelegate: class {
+public protocol HyperlinkLabelDelegate: AnyObject {
     func didSelect(_ text: String, type: HyperlinkType)
 }
 

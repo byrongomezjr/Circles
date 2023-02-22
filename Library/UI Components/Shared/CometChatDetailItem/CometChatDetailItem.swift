@@ -45,6 +45,7 @@ class CometChatDetailItem: UITableViewCell {
                     detail.text = "ONLINE".localized()
                 case .offline:
                      detail.text = "OFFLINE".localized()
+                case .available: break
                 @unknown default:
                     detail.text = "OFFLINE".localized()
                 }

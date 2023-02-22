@@ -49,6 +49,7 @@ class CometChatUserListItem: UITableViewCell {
                 case .offline:
                     userStatus.text = "OFFLINE".localized()
                 case .none: break
+                case .some(.available): break
                 @unknown default:
                     userStatus.text = "OFFLINE".localized()
                 }

@@ -72,7 +72,7 @@ class CometChatReceiverCollaborativeMessageBubble: UITableViewCell {
             icon.tintColor = UIKitSettings.primaryColor
             joinButton.tintColor = UIKitSettings.primaryColor
             
-            timeStamp.text = String().setMessageTime(time: Int(whiteboardMessage.sentAt ?? 0))
+                timeStamp.text = String().setMessageTime(time: Int(whiteboardMessage.sentAt ))
             
             if let avatarURL = whiteboardMessage.sender?.avatar  {
                 avatar.set(image: avatarURL, with: whiteboardMessage.sender?.name ?? "")

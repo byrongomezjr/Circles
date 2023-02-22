@@ -20,7 +20,7 @@ extension UIImageView {
     ///   - color: This optional paramter sets the background of the image. By default, a random color will be generated.
     ///   - circular: This boolean will determine if the image view will be clipped to a circular shape.
     ///   - textAttributes: This dictionary allows you to specify font, text color, shadow properties, etc.
-    open func setImage(string: String?,
+    public func setImage(string: String?,
                        color: UIColor? = nil,
                        circular: Bool = false,
                        stroke: Bool = false,

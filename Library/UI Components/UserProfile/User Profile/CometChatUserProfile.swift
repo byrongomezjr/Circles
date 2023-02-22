@@ -85,7 +85,7 @@ public class CometChatUserProfile: UIViewController {
               let alert = UIAlertController(title: nil, message: "Updating...", preferredStyle: .alert)
               let loadingIndicator = UIActivityIndicatorView(frame: CGRect(x: 10, y: 5, width: 50, height: 50))
               loadingIndicator.hidesWhenStopped = true
-              loadingIndicator.style = UIActivityIndicatorView.Style.gray
+              loadingIndicator.style = UIActivityIndicatorView.Style.medium
               loadingIndicator.startAnimating()
               alert.view.addSubview(loadingIndicator)
               self.present(alert, animated: true, completion: nil)
@@ -295,7 +295,7 @@ extension CometChatUserProfile: UITableViewDelegate , UITableViewDataSource {
             }
         }else if indexPath.section == 2{
             
-            let settingsCell = tableView.dequeueReusableCell(withIdentifier: "CometChatSettingsItem", for: indexPath) as! CometChatSettingsItem
+            _ = tableView.dequeueReusableCell(withIdentifier: "CometChatSettingsItem", for: indexPath) as! CometChatSettingsItem
             switch others[safe:indexPath.row] {
             default:
                 break

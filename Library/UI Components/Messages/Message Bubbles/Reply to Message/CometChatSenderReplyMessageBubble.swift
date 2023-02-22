@@ -276,7 +276,8 @@ class CometChatSenderReplyMessageBubble: UITableViewCell {
             case .file:  message.text = "YOU_DELETED_THIS_FILE".localized()
             case .custom: message.text = "YOU_DELETED_THIS_CUSTOM_MESSAGE".localized()
             case .groupMember: break
-            @unknown default: break }
+            case .none: break
+                @unknown default: break }
             message.textColor = .darkGray
             message.font = UIFont.italicSystemFont(ofSize: 17)
             timeStamp.text = String().setMessageTime(time: Int(deletedMessage?.sentAt ?? 0))

@@ -11,7 +11,7 @@ import CometChatPro
 
 // MARK: - Declaration of Protocols.
 
-protocol SharedMediaDelegate: class {
+protocol SharedMediaDelegate: AnyObject {
     
     func didPhotoSelected(photo: MediaMessage)
     func didVideoSelected(video: MediaMessage)

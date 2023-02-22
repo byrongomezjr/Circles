@@ -11,7 +11,7 @@ import CometChatPro
 
 // MARK: - Importing Protocols.
 
-protocol ReactionCellDelegate: class {
+protocol ReactionCellDelegate: AnyObject {
     func didAddNewReactionPressed(reaction: String)
 }
 

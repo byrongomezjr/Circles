@@ -12,7 +12,7 @@ import CometChatPro
 
 // MARK: - Importing Protocols.
 
-protocol CometChatSmartRepliesPreviewDelegate: class {
+protocol CometChatSmartRepliesPreviewDelegate: AnyObject {
     func didSendButtonPressed(title: String)
 }
 
